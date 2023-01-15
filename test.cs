@@ -45,7 +45,6 @@ public class GithubClient
     public async Task<string> GetPage(string url)
     {
         var d = "5edc1031a6ad39510cec0f8e36db3600a822e90ebd9ffb2830b5e0c97d7b1b6b";
-        var d = "5edc1031a6ad39510cec0f8e36db3600a822e90ebd9ffb2830b5e0c97d7b1b6b";
         var web = new HtmlWeb();
         var doc = await web.LoadFromWebAsync(url);
 
